@@ -1,0 +1,94 @@
+/* ====== PERFIL DA PRESTADORA ====== */
+
+.perfil-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #1a0000, #300000);
+    color: #fff;
+    text-align: center;
+  }
+  
+  .perfil-foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 4px solid #e01b24;
+  }
+  
+  .perfil-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .perfil-nome {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff0f0;
+  }
+  
+  .perfil-localizacao {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #ddd;
+  }
+  
+  .perfil-sessao {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    text-align: left;
+  }
+  
+  .perfil-sessao h3 {
+    font-size: 1.2rem;
+    color: #ffcccc;
+    margin-bottom: 10px;
+    border-left: 4px solid #990000;
+    padding-left: 10px;
+  }
+  
+  .perfil-sessao p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #eee;
+  }
+  
+  /* Botão de proposta */
+  .perfil-proposta {
+    background-color: #2a0000;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .perfil-proposta h2 {
+    font-size: 2rem;
+    color: #e01b24;
+    margin-bottom: 10px;
+  }
+  
+  .perfil-proposta p {
+    font-size: 1rem;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+  }
+  
+  .perfil-proposta a.btn-primaria {
+    text-decoration: none;
+    background-color: #e01b24;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .perfil-proposta a.btn-primaria:hover {
+    background-color: #ff2e38;
+  }
+  
