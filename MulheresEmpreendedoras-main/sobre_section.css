@@ -1,0 +1,52 @@
+
+/* Seção Sobre */
+#sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  background: linear-gradient(to right, #1a0000, #300000);
+  color: white;
+  gap: 40px;
+}
+
+#sobre .conteudo {
+  flex: 1;
+  max-width: 600px;
+}
+
+#sobre .conteudo h2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #fff0f0;
+}
+
+#sobre .item {
+  margin-bottom: 30px;
+  border-left: 6px solid #990000;
+  padding-left: 15px;
+}
+
+#sobre .item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffcccc;
+  margin-bottom: 5px;
+}
+
+#sobre .item p {
+  font-size: 16px;
+  color: #eee;
+}
+
+#sobre .imagem-lateral {
+  flex: 1;
+}
+
+#sobre .imagem-lateral img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}

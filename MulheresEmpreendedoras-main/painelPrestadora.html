@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Painel da Prestadora | ConectaEla</title>
+  <link rel="stylesheet" href="prestadoras.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="container">
+      <div class="logo">
+        <img src="img/logo4.png" alt="Logo ConectaEla">
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html#sobre">Sobre</a></li>
+          <li><a href="index.html#servicos">Serviços</a></li>
+          <li><a href="index.html#cadastro">Cadastre-se</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="apresentacao-prestadoras">
+    <div class="container">
+      <div class="texto-imagem">
+        <div class="texto">
+          <h2>Bem-vinda ao Painel das Prestadoras de Serviços</h2>
+          <p>Este é o seu espaço para se destacar! Aqui, você pode compartilhar suas habilidades, experiências e portfólio, tornando-se visível para empresas que buscam talentos como o seu. Aproveite esta oportunidade para expandir sua rede e conquistar novos clientes!</p>
+        </div>
+        <div class="imagem">
+          <img src="img/mulhersorrindopc.jpg" alt="Mulher trabalhando" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="prestadoras" class="prestadoras-servicos">
+    <div class="container">
+      <h2>Área das Prestadoras de Serviços</h2>
+      <p class="subtitulo">Divulgue suas habilidades, experiências e portfólio para se conectar com empresas.</p>
+
+      <div class="cards-imagens">
+        <div class="card">
+          <img src="img/portfolio.jpg" alt="Habilidades" />
+          <h3>Compartilhe Habilidades</h3>
+          <p>Mostre tudo o que você sabe fazer de melhor!</p>
+        </div>
+        <div class="card">
+          <img src="img/experiencia.jpg" alt="Experiência" />
+          <h3>Conte Suas Experiências</h3>
+          <p>Empresas valorizam histórias reais de sucesso!</p>
+        </div>
+        <div class="card">
+          <img src="img/mulherNoteBook.jpg" alt="Portfólio" />
+          <h3>Divulgue seu Portfólio</h3>
+          <p>Coloque seus melhores trabalhos em evidência.</p>
+        </div>
+      </div>
+
+      <form class="formulario-prestadora">
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="habilidades">Habilidades</label>
+        <textarea id="habilidades" name="habilidades" rows="4" placeholder="Descreva suas habilidades..." required></textarea>
+
+        <label for="experiencias">Experiências</label>
+        <textarea id="experiencias" name="experiencias" rows="4" placeholder="Descreva suas experiências anteriores..." required></textarea>
+
+        <label for="portfolio">Link do Portfólio</label>
+        <input type="url" id="portfolio" name="portfolio" placeholder="https://seuportfolio.com" required />
+
+        <button type="submit">Enviar Informações</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
